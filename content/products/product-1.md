@@ -1,6 +1,7 @@
 ---
 title: "My First Blog"
 date: 24, August, 2021
+description: "online platform in blockchanin to make everything decentralized."
 ---
 
 # Welcome to my blog

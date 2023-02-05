@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import Link from "next/link";
 import Button from "../lib/Button";
 import { FaBars } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
@@ -10,7 +11,9 @@ const Navbar = () => {
     <Nav>
       <Container>
         <Container className="brand">
-          <h1>Brandizzy!</h1>
+          <Link href="/">
+            <h1>Brandizzy!</h1>
+          </Link>
           {/* <Image src={LOGO} alt="" /> */}
         </Container>
 

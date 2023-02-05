@@ -42,4 +42,9 @@ const Container = styled.button`
     background-color: #212024;
     background-image: none;
   }
+
+  &.card-btn {
+    margin-right: 0px;
+    padding: 10px 20px;
+  }
 `;

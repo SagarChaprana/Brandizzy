@@ -4,10 +4,11 @@ import matter from "gray-matter";
 import Link from "next/link";
 import Image from "next/image";
 import styled from "styled-components";
+import ProductCard from "../components/ProductCard";
 
 export default function Home({ products }) {
   return (
-    <Container>
+    <Container className="container">
       <Head>
         <title>Demo Blog</title>
       </Head>
@@ -19,20 +20,20 @@ export default function Home({ products }) {
             <Link href={`/product/${product.slug}`}>
               {product.date}:{product.title}
             </Link>
+            {product.description}
           </li>
         ))}
       </ul>
+
+      <Container className="products">
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+        <ProductCard />
+      </Container>
     </Container>
   );
 }
-
-const Container = styled.div`
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-`;
 
 export async function getStaticProps() {
   // List of files in blgos folder
@@ -55,3 +56,17 @@ export async function getStaticProps() {
     },
   };
 }
+
+const Container = styled.div`
+  &.container {
+    padding: ${(props) => props.theme.sectionMargin};
+  }
+
+  &.products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+`;
