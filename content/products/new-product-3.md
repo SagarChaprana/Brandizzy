@@ -1,5 +1,8 @@
 ---
-title: new-product-3
+title: Food ordering business like swiggy/zomato
+description: "Start your own food ordering business . handle all the business
+  with admin panel from home "
+thumbnail: https://static.wixstatic.com/media/70e839_af6604c9234a454999671692e0004c6e~mv2.png/v1/fill/w_266,h_113,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/swiggy.png
 date: February 4, 2023 11:39 PM
 ---
 T﻿his is the new product that we are launching!!!!
