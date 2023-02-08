@@ -1,17 +1,8 @@
 ---
-title: "My First Blog"
-date: 24, August, 2021
-description: "online platform in blockchanin to make everything decentralized."
+title: Taxi booking business like ola/uber
+description: "Start your own taxi /cabs booking business with app basket whole business solution "
+thumbnail: https://static.wixstatic.com/media/70e839_0727d56bd5114268ba2acc7d87c50f87~mv2.png/v1/fill/w_150,h_50,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ola.png
+date: February 4, 2023 11:40 PM
 ---
 
-# Welcome to my blog
-
-This is an markdown file with some front matter.
-Yes you have key value pair in yaml format covered by --- on the of markdown file.
-The yaml style key value pair on the top is called front matter.
-
-## Header 2
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-> a blockquote
+T﻿his is the new product that we are launching!!!!

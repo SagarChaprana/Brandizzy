@@ -34,4 +34,9 @@ collections:
           time_format: "HH:mm",
           format: "LLL",
         }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Body",
+          name: "body",
+          widget: "markdown",
+          hint: "This will be shown in product page.",
+        }

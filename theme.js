@@ -4,6 +4,7 @@ const theme = {
   gdLeft: "#475AC3",
   gdRight: "#8B55D0",
   sectionMargin: "5rem 8%",
+  sectionPadding: "2rem 8%",
   fontKarla: "Karla",
   fontLato: "Lato",
 };

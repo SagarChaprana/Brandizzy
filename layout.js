@@ -17,7 +17,7 @@ body {
 h1, h2, h3, h5, h6 {
     font-family: ${(props) => props.theme.fontLato};
 }
-p, a, span, button {
+p, a, span, button, input, textarea, label {
     font-family: ${(props) => props.theme.fontKarla} !important;
 }
 `;

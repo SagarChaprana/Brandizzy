@@ -1,8 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 
-const Button = ({ children, className }) => {
-  return <Container className={className}>{children}</Container>;
+const Button = ({ children, isDisabled, className }) => {
+  return (
+    <Container isDisabled={isDisabled} disabled={isDisabled} className={className}>
+      {children}
+    </Container>
+  );
 };
 
 export default Button;
@@ -26,11 +30,21 @@ const Container = styled.button`
     -webkit-transform: translate(0, -2px);
     -ms-transform: translate(0, -2px);
     transform: translate(0, -2px);
-    cursor: pointer;
+  }
+
+  cursor: ${({isDisabled}) => isDisabled ? "not-allowed" : "pointer" };
+
+  &.disabled {
+    background-color: grey;
   }
 
   a {
     all: unset;
+  }
+
+  &.full-width {
+    display: block;
+    width: 90.5%;
   }
 
   &.nav-btn {

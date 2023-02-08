@@ -114,6 +114,14 @@ const Container = styled.div`
   align-items: center;
   gap: 4rem;
 
+  &.brand {
+    a {
+      all: unset;
+      cursor: pointer;
+      color: #4F59C4;
+    }
+  }
+
   &.brand,
   &.nav-items {
     display: flex;
